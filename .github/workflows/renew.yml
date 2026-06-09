@@ -16,8 +16,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'  # 新增：缓存 npm 依赖加速执行
-
+          
       - name: Setup Python
         uses: actions/setup-python@v5  # 升级到 v5 稳定版
         with:
